@@ -18,13 +18,6 @@
 
 ---
 
-## 📌 Overview
-
-**Attendance Management System** is a full-stack web application built using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)** to simplify employee attendance tracking, leave management, and salary calculations.
-
-The application provides a centralized platform where organizations can manage employee records, monitor daily attendance, process leave requests, and generate attendance-based salary information.
-
-It aims to reduce manual attendance work, improve record accuracy, and make employee management more efficient.
 
 ## ✨ Key Features
 
@@ -65,30 +58,33 @@ It aims to reduce manual attendance work, improve record accuracy, and make empl
 - Easy navigation between application modules.
 
 ---
-
 ## 🔄 Application Workflow
 
-The following diagram explains the overall working process of the Attendance Management System.
+The application follows a simple process to manage employee records, attendance, leave requests, and salary calculations.
 
 ```mermaid
 flowchart TD
-    A([Start Application]) --> B[Open Dashboard]
-    B --> C[Manage Employee Records]
-    C --> D[Employee Attendance]
-    D --> E[Check In]
-    E --> F[Record Working Hours]
-    F --> G[Check Out]
-    G --> H[Save Attendance Record]
-    H --> I[Manage Leave Requests]
-    I --> J{Leave Approved?}
-    J -->|Yes| K[Update Leave Records]
-    J -->|No| L[Mark Request Rejected]
-    K --> M[Generate Attendance Report]
-    L --> M
-    M --> N[Calculate Monthly Salary]
-    N --> O([End])
+    A([Start]) --> B[Dashboard]
+    B --> C[Employee Management]
+    C --> D[Attendance Tracking]
+    D --> E[Leave Management]
+    E --> F[Attendance Reports]
+    F --> G[Holiday Management]
+    G --> H[Salary Calculation]
+    H --> I([Final Summary])
 ```
 
+### Workflow Overview
+
+- **Dashboard:** View employee and attendance information.
+- **Employee Management:** Manage employee records.
+- **Attendance Tracking:** Record check-in and check-out.
+- **Leave Management:** Approve or reject leave requests.
+- **Attendance Reports:** Review monthly attendance.
+- **Holiday Management:** Consider Sundays, 2nd and 4th Saturdays, and applicable holidays.
+- **Salary Calculation:** Calculate monthly salary based on paid days.
+
+**Outcome:** Simplified employee attendance and payroll management.
 ## 💰 Salary Calculation Workflow
 
 The salary module considers attendance, weekly holidays, applicable calendar holidays, and approved leaves to determine monthly paid days.
@@ -167,6 +163,33 @@ attendance-management/
 ├── jsconfig.json
 └── README.md
 ```
+## 📦 Packages & Dependencies
+
+The project uses the following npm packages and libraries:
+
+### Frontend Dependencies
+
+| Package | Purpose |
+|---|---|
+| react | Build user interfaces |
+| react-dom | Render React components |
+| react-router-dom | Client-side routing |
+| axios | HTTP requests and API integration |
+| lucide-react | Icons |
+| tailwindcss | UI styling |
+| vite | Development server and build tool |
+
+### Backend Dependencies
+
+| Package | Purpose |
+|---|---|
+| express | Backend API and server |
+| mongoose | MongoDB object modeling |
+| cors | Cross-origin resource sharing |
+| dotenv | Environment variable management |
+| nodemon | Automatic server restart during development |
+
+**Note:** The package list above is illustrative. Refer to the actual `package.json` files for the installed dependencies.
 
 ## 🚀 Future Enhancements
 
@@ -183,6 +206,15 @@ The following features can be introduced in future versions:
 - [ ] Improved reporting and payroll management.
 
 ---
+
+## 📌 Overview
+
+**Attendance Management System** is a full-stack web application built using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)** to simplify employee attendance tracking, leave management, and salary calculations.
+
+The application provides a centralized platform where organizations can manage employee records, monitor daily attendance, process leave requests, and generate attendance-based salary information.
+
+It aims to reduce manual attendance work, improve record accuracy, and make employee management more efficient.
+
 
 ## 👩‍💻 Developer
 
