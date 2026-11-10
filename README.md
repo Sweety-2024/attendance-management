@@ -1,22 +1,13 @@
 # 🕒 Attendance Management System
 
-<p align="center">
-  <b>A Full-Stack MERN Application for Smart Employee Attendance & Workforce Management</b>
-</p>
+## 📌 Overview
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-API-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-</p>
+**Attendance Management System** is a full-stack web application built using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)** to simplify employee attendance tracking, leave management, and salary calculations.
 
-<p align="center">
-  <a href="https://github.com/Sweety-2024/attendance-management">GitHub Repository</a> •
-  <a href="https://www.linkedin.com/in/sweety-kumari-46217034b/">LinkedIn Profile</a>
-</p>
+The application provides a centralized platform where organizations can manage employee records, monitor daily attendance, process leave requests, and generate attendance-based salary information.
 
----
+It aims to reduce manual attendance work, improve record accuracy, and make employee management more efficient.
+
 
 
 ## ✨ Key Features
@@ -163,34 +154,6 @@ attendance-management/
 ├── jsconfig.json
 └── README.md
 ```
-## 📦 Packages & Dependencies
-
-The project uses the following npm packages and libraries:
-
-### Frontend Dependencies
-
-| Package | Purpose |
-|---|---|
-| react | Build user interfaces |
-| react-dom | Render React components |
-| react-router-dom | Client-side routing |
-| axios | HTTP requests and API integration |
-| lucide-react | Icons |
-| tailwindcss | UI styling |
-| vite | Development server and build tool |
-
-### Backend Dependencies
-
-| Package | Purpose |
-|---|---|
-| express | Backend API and server |
-| mongoose | MongoDB object modeling |
-| cors | Cross-origin resource sharing |
-| dotenv | Environment variable management |
-| nodemon | Automatic server restart during development |
-
-**Note:** The package list above is illustrative. Refer to the actual `package.json` files for the installed dependencies.
-
 ## 🚀 Future Enhancements
 
 The following features can be introduced in future versions:
@@ -206,14 +169,27 @@ The following features can be introduced in future versions:
 - [ ] Improved reporting and payroll management.
 
 ---
+<p align="center">
+  <b>A Full-Stack MERN Application for Smart Employee Attendance & Workforce Management</b>
+</p>
 
-## 📌 Overview
 
-**Attendance Management System** is a full-stack web application built using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)** to simplify employee attendance tracking, leave management, and salary calculations.
 
-The application provides a centralized platform where organizations can manage employee records, monitor daily attendance, process leave requests, and generate attendance-based salary information.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-API-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+</p>
 
-It aims to reduce manual attendance work, improve record accuracy, and make employee management more efficient.
+<p align="center">
+  <a href="https://github.com/Sweety-2024/attendance-management">GitHub Repository</a> •
+  <a href="https://www.linkedin.com/in/sweety-kumari-46217034b/">LinkedIn Profile</a>
+</p>
+
+---
+
+
 
 
 ## 👩‍💻 Developer
