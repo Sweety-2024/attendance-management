@@ -10,8 +10,12 @@ on:
       - main
 
 jobs:
-  build:
+  frontend-build:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./frontend
 
     steps:
       - name: Checkout Code
@@ -23,7 +27,7 @@ jobs:
           node-version: 20
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Build Project
+      - name: Build Frontend
         run: npm run build
